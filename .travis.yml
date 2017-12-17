@@ -1,0 +1,3 @@
+install: build-essentials cmake
+before_script: cmake .
+
