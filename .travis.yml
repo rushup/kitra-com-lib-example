@@ -1,2 +1,2 @@
-install: build-essentials cmake
+install: sudo apt-get install -y build-essentials cmake
 before_script: cmake .
